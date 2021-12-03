@@ -1,6 +1,6 @@
 <template>
   <header>
-    <MenuMobile v-if="mobileView" />
+    <MobileMenu v-if="mobileView" />
     <nav>
       <router-link to="/" class="logo">
         <img src="../../public/img/logo2.png" alt="Logo site" />
@@ -19,14 +19,14 @@
       </div>
       <Cart />
       <!-- <span v-if="!mobileView" class="carrinho"> Carrinho: {{$store.state.cart}}</span> -->
-      <BuscarProdutos v-if="!mobileView" />
+      <ProductSearch v-if="!mobileView" />
     </nav>
   </header>
 </template>
 
 <script>
-import MenuMobile from "../components/MenuMobile.vue";
-import BuscarProdutos from "../components/BuscarProdutos.vue";
+import MobileMenu from "../components/MobileMenu.vue";
+import ProductSearch from "../components/ProductSearch.vue";
 import Cart from "../components/Cart.vue";
 
 export default {
@@ -39,8 +39,8 @@ export default {
   },
 
   components: {
-    MenuMobile,
-    BuscarProdutos,
+    MobileMenu,
+    ProductSearch,
     Cart,
   },
 

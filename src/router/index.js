@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Home from '../views/Home.vue'
-import Eletronics from '../views/Eletronics.vue'
+import Electronics from '../views/Electronics.vue'
 import Jewelery from '../views/Jewelery.vue'
 import MensClothing from '../views/MensClothing.vue'
 import WomensClothing from '../views/WomensClothing.vue'
@@ -17,9 +17,9 @@ const routes = [
     component: Home
   },
   {
-    name: 'Eletronics',
+    name: 'Electronics',
     path: '/electronics',
-    component: Eletronics
+    component: Electronics
   },
   {
     name: 'Jewelery',

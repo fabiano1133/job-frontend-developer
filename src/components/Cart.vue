@@ -11,10 +11,19 @@ export default {
 </script>
 
 <style>
+
+@media screen and (max-width:500px) {
+  .cart {
+    margin: 0 auto;
+  }
+}
+
 .cart {
-  height: 50px;
-  width: 50px;
-  background-color: orange;
-  color: #000;
+  background-image: url("../../public/img/iconmonstr-shopping-cart-3.svg");
+  background-repeat: no-repeat;
+  height:50px;
+  width:50px;
+  color: #fff;
+  cursor: pointer;
 }
 </style>

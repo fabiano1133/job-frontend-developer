@@ -3,17 +3,17 @@
     <div class="title">
       <h1>Nossos Produtos</h1>
     </div>
-    <ListProducts />
+    <ProductList />
   </section>
 </template>
 
 <script>
-import ListProducts from "../components/ListProducts.vue";
+import ProductList from "../components/ProductList.vue";
 
 export default {
   name: "Home",
   components: {
-    ListProducts,
+    ProductList,
   },
 };
 </script>

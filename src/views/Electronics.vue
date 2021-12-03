@@ -4,17 +4,17 @@
     <div class="title">
       <h1>Eletrônicos</h1>
     </div>
-    <ListCategories />
+    <ListCategoriesElectronics />
   </section>
 </template>
 
 <script>
-import ListCategories from "../components/ListCategoriesElectronics.vue";
+import ListCategoriesElectronics from "../components/ListCategoriesElectronics.vue";
 
 export default {
   name: "Electronics",
   components: {
-    ListCategories,
+    ListCategoriesElectronics,
   },
 };
 </script>
